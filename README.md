@@ -4,11 +4,11 @@ Live site Link (https://github.com/facebook/create-react-app).
 
 ## Project Description
 
-This is a device responsive website developed using React (a frontend libery of JS); Key features of this site are:
+This is a device responsive website developed using React (a frontend library of JS); Key features of this site are:
 
 ### Developed using React
 
-React is one of the most populer JavaScript frontend libery, which make sites more optimized according to performance.
+React is one of the most populer JavaScript frontend library, which make sites more optimized according to performance.
 
 ### Hire skilled developers
 
