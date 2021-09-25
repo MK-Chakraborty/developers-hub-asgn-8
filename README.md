@@ -1,6 +1,6 @@
 # Developers' Hub
 
-Live site Link (https://github.com/facebook/create-react-app).
+Live site Link (https://developers-hub-assignment-8.netlify.app/).
 
 ## Project Description
 
