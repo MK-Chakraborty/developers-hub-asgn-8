@@ -12,7 +12,7 @@ React is one of the most populer JavaScript frontend library, which make sites m
 
 ### Hire skilled developers
 
-People inneed of well skilled developers for their business or, anything could hire skilled developers from here.
+People in need of well skilled developers for their business or, anything could hire skilled developers from here.
 
 ### Hire based on week
 
