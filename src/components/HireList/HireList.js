@@ -17,7 +17,7 @@ const HireList = (props) => {
                     <span className="fs-5 badge bg-primary rounded-pill">{props.list.length}</span>
                 </li>
                 {
-                    devNameList.map(devName => <DevNameList name={devName}></DevNameList>)
+                    devNameList.map(devName => <DevNameList key={devNameList.lastIndexOf(devName)} name={devName}></DevNameList>)
                 }
             </ul>
             <li className="list-group-item list-group-item-danger fs-5 fw-bold">Payment Total: {total} $</li>
