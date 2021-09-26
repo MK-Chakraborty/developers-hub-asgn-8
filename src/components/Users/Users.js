@@ -5,6 +5,7 @@ const Users = (props) => {
 
     const { name, country, email, age, phone, fee, rate, experience, picture } = props.developer;
 
+    // Calculating Star Rating.
     const iconArray = [];
     for (let i = 0; i < rate; i++) {
         iconArray.push(<i className="fas fa-star"></i>);
@@ -28,6 +29,7 @@ const Users = (props) => {
                     <h6 className="card-title"><span className="text-success border-0 border-dark border-bottom">Phone</span> :  {phone}</h6>
                     <h6 className="card-title"><span className="text-success border-0 border-dark border-bottom">e-mail</span> :  {email}</h6>
                     <h4 className="py-2 text-success">
+                        {/* DevRating Component will display star rating */}
                         {
                             iconArray.map(icon => <DevRating key={iconArray.lastIndexOf(icon)} icon={icon}></DevRating>)
                         }

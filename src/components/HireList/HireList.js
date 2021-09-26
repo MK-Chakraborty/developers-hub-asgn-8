@@ -18,6 +18,7 @@ const HireList = (props) => {
                     Total Candidate:
                     <span className="fs-5 badge bg-primary rounded-pill">{props.list.length}</span>
                 </li>
+                {/* Sending developers name to DevNameList component to display developers name at cart */}
                 {
                     devNameList.map(devName => <DevNameList key={devNameList.lastIndexOf(devName)} name={devName}></DevNameList>)
                 }
