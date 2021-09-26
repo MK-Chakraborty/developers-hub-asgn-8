@@ -1,5 +1,3 @@
-import React from 'react';
-
 const DevRating = (props) => {
     return (
         props.icon

@@ -6,7 +6,9 @@ const HireList = (props) => {
     const devNameList = [];
     for (const obj of props.list) {
         total += obj.fee;
-        devNameList.push(obj.name);
+        if (devNameList.indexOf(obj.name) === -1) {
+            devNameList.push(obj.name);
+        }
     }
     return (
         <div className='py-3'>
